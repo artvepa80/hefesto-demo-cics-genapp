@@ -1,3 +1,5 @@
+> **Demo copy.** This repository is a fork of IBM's CICS GenApp sample ([cicsdev/cics-genapp](https://github.com/cicsdev/cics-genapp)), distributed under the [Eclipse Public License 2.0](LICENSE). It is used only to demonstrate [HefestoAI](https://hefestoai.narapallc.com)'s SARIF output and GitHub code-scanning upload (see `.github/workflows/hefesto.yml`). The original source files are unchanged. This project is not affiliated with or endorsed by IBM. Findings reflect a sample application, not production code.
+
 # General insurance application (GenApp) for IBM CICS TS
 
 This GitHub repository contains the code originally distributed by the
