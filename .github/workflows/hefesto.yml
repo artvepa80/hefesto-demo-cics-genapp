@@ -1,0 +1,16 @@
+name: Hefesto
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  security-events: write
+jobs:
+  hefesto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: artvepa80/Agents-Hefesto@main
+        with:
+          sarif: true
